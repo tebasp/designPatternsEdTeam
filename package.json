@@ -1,0 +1,23 @@
+{
+    "name": "designpatternsedteam",
+    "version": "1.0.0",
+    "description": "Desing patterns course",
+    "main": "index.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "yarn run build && node dist/abstractFactory/application/handler.js"
+    },
+    "keywords": [
+        "Node",
+        "TypeScript",
+        "DesignPatterns"
+    ],
+    "author": "Esteban Palomeque",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0"
+    }
+}
