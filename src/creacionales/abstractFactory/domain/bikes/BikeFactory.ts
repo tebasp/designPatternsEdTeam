@@ -1,6 +1,7 @@
 import { IVehicle } from '../vehicles/IVehicle'
 import { VehicleAbstractFactory } from '../vehicles/VehicleAbstractFactory'
 import { BikeEnum } from './BikeEnum'
+import { IBike } from './IBike'
 import { RaceBike } from './RaceBike'
 import { SportBike } from './SportBike'
 
