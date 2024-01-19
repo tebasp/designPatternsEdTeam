@@ -3,7 +3,7 @@
         "outDir": "./dist",
         "allowJs": true,
         "module": "CommonJS",
-        "lib": ["es2015", "DOM"]
+        "lib": ["ES2021", "DOM"]
     },
     "exclude": ["node_modules", "./dist"]
 }
