@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "build": "npx tsc",
-        "start": "yarn run build && node dist/estructurales/decorator/application/handler.js"
+        "start": "yarn run build && node dist/estructurales/decoratorTest/application/handler.js"
     },
     "keywords": [
         "Node",
