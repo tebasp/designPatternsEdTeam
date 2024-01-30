@@ -3,7 +3,8 @@
         "outDir": "./dist",
         "allowJs": true,
         "module": "CommonJS",
-        "lib": ["ES2021", "DOM"]
+        "lib": ["ES2021", "DOM"],
+        "target": "ES5"
     },
     "exclude": ["node_modules", "./dist"]
 }
