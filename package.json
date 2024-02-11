@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "build": "npx tsc",
-        "start": "yarn run build && node dist/comportamentales/chain/application/handler.js"
+        "start": "yarn run build && node dist/comportamentales/iterator/application/handler.js"
     },
     "keywords": [
         "Node",
