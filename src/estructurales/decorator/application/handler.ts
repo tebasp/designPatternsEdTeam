@@ -2,7 +2,7 @@ import { FileDataSource } from '../domain/models/FileDataSources'
 import { EncryptionDecorator } from '../domain/services/EncryptionDecorator'
 
 export function handler() {
-    let fileSource = new FileDataSource()
+    const fileSource = new FileDataSource()
     fileSource.writeData('Hello World')
     console.log(fileSource.readData())
 
